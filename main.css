@@ -1,0 +1,245 @@
+@media  (min-width: 768px) {
+
+
+    
+}
+body {
+    background-color: #f8f9fa;
+}
+.hero {
+    background-image: url('genesis-banner-1.jpg'); /* Replace with your background image */
+    background-size: cover;
+    height: 80vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.hero h1 {
+    font-size: 3rem;
+    
+}
+.hero h2 {
+    font-family: A;
+}
+.hero p {
+    font-size: 1.5rem;
+}
+.hero h3 {
+    font-size: 29px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: a;
+    color: white;
+}
+h3 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.card-body {
+    background-color: rgb(215, 211, 211);
+}
+img {
+    width: 90px;
+}
+.narrow {
+    background-image: url('genesis-banner-1.jpg');
+    color: rgb(27, 20, 20);
+    height: 70vh;
+    background-size: cover;
+}
+.p1 {
+    color: rgb(213, 222, 231);
+    font-size: 29px;
+}
+.p2 {
+    color: white;
+    font-size: 29px;
+}
+h5 {
+    color: white;
+}
+.p3 {
+    color: gray;
+}
+i {
+    color: gray;
+    margin: 5px;
+}
+.p5 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 70px;
+    font-weight: bolder;
+}
+button {
+    border-radius: 35px;
+    padding: 15px;
+    width: 150px;
+    color: white;
+    background-color: plum;
+    border: none;
+}
+.container4 {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.container1 {
+    font-family: a;
+    color: white;
+}
+h3 {
+    color: #333;
+}
+.contact-info {
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.error {
+    color: red;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+.submit-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container::before,
+.button-container::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #000;
+    /* margin: 0 0px;  */
+    
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(10, 9, 9);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: a;
+}
+.btn::before,
+.btn::after {
+    content: '';
+    flex: 1;
+    height: 2px; /* Line thickness */
+    background-color: #000; /* Line color */
+    margin: 0 10px; /* Space between line and button */
+}
+.find-out-more {
+    margin-top: 10px;
+    color: rgb(184, 122, 122);
+    cursor: pointer;
+}
+/* Responsive styles */
+
+@media (max-width: 768px) {
+    .hero {
+        height: 40vh;
+    }
+    .narrow {
+        height: 20vh;
+    }
+    .container4 {
+        max-width: 100%;
+    }
+    .form-group {
+        margin-bottom: 10px;
+    }
+    h3 {
+        font-size: 29px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    p,.p1, .p2, .p3, .p5 {
+        font-size: 14px;
+    }
+    i {
+        font-size: 14px;
+    }
+    .img {
+        width: 20px;
+        height: 400px 
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+   .hero {
+    height: 30vh;
+    }
+    .narrow {
+        height: 15vh;
+    }
+    h1, h2, h3, h5 {
+        font-size: 20px;
+    }
+    p,.p1, p2, p3, p5 {
+        font-size: 16px;
+    }
+   .container4 {
+    max-width: 90%;
+    }
+    .img {
+        width: 10px;
+        height: 300px
+    } 
+}
